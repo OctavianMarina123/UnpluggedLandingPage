@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243.2 48.37">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        stroke: #3b7bb8;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        fill: #f1f2f2;
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 28px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        stroke: #88afdd;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(61.8 34.71)"><tspan x="0" y="0">UNP</tspan><tspan class="cls-5" x="61.22" y="0">L</tspan><tspan x="76.74" y="0">U</tspan><tspan class="cls-1" x="98.01" y="0">G</tspan><tspan x="119.82" y="0">GED</tspan></text>
+  <line class="cls-3" x1="24.64" y1="18.22" x2="28.86" y2="13.66"/>
+  <line class="cls-3" x1="30" y1="23.23" x2="34.22" y2="18.67"/>
+  <line class="cls-3" x1="9.33" y1="39.99" x2="17.3" y2="31.84"/>
+  <path class="cls-2" d="m9.25,39.95c-4.52-4.29-7.16-10.51-6.7-17.23C3.36,10.77,13.67,1.74,25.57,2.55s20.89,11.15,20.07,23.1c-.81,11.95-11.12,20.98-23.02,20.17-.66-.04-1.31-.12-1.95-.22"/>
+  <path class="cls-2" d="m15.23,28.81l4.62,4.64c1.68,1.69,4.41,1.69,6.09,0l6.1-6.13c.46-.46.46-1.2,0-1.66l-9.05-9.09c-.46-.46-1.2-.46-1.65,0l-6.1,6.13c-1.68,1.69-1.68,4.42,0,6.11Z"/>
+</svg>
