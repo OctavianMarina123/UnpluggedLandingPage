@@ -17,10 +17,10 @@ const Features = () => {
                             >
                                 <div className="w-full md:w-1/3 flex items-center justify-center mb-5 md:mb-0">
                                     <div className="md:-mr-3 flex items-center justify-center flex-col">
-                                        <div className="w-0.5 h-16 bg-s3" />
+                                        <div className="w-0.5 h-16 bg-s3 max-lg:h-12"/>
                                         <img
                                             src={icon}
-                                            className="object-contain"
+                                            className="object-contain lg:w-3/4 max-lg:w-1/2"
                                             width={200}
                                             alt={title}
                                         />
@@ -36,7 +36,7 @@ const Features = () => {
                                 </div>
                             </div>
                         ))}
-                        
+
                         <ul className="relative flex flex-row justify-around gap-x-5 px-[5%] border-2 border-s3 rounded-7xl">
                             <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
 
