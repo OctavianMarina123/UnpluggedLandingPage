@@ -15,7 +15,6 @@ const Features = () => {
                                 key={id}
                                 className={`relative z-2 px-5 pb-5 flex-auto border-2 border-s3 rounded-3xl flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}
                             >
-                                {/* Imaginea */}
                                 <div className="w-full md:w-1/3 flex items-center justify-center mb-5 md:mb-0">
                                     <div className="md:-mr-3 flex items-center justify-center flex-col">
                                         <div className="w-0.5 h-16 bg-s3" />
@@ -28,7 +27,6 @@ const Features = () => {
                                     </div>
                                 </div>
 
-                                {/* Textul */}
                                 <div className="w-full md:w-2/3">
                                     <p className="caption mb-5">{caption}</p>
                                     <h2 className="max-w-400 mb-7 h3 text-p4">
