@@ -11,7 +11,7 @@ const Hero = () => {
 
     useEffect(() => {
         function handleResize() {
-            setIphoneScale(window.innerWidth < 768 ? 6 : 5.5);
+            setIphoneScale(window.innerWidth < 1350 ? 6 : 5.5);
         }
 
         window.addEventListener('resize', handleResize);
