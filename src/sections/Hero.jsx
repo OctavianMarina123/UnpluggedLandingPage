@@ -7,11 +7,11 @@ import { Canvas } from "@react-three/fiber";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 
 const Hero = () => {
-    const [iphoneScale, setIphoneScale] = useState(window.innerWidth < 768 ? 4 : 5.5);
+    const [iphoneScale, setIphoneScale] = useState(window.innerWidth < 1350 ? 4 : 5.5);
 
     useEffect(() => {
         function handleResize() {
-            setIphoneScale(window.innerWidth < 1350 ? 6 : 5.5);
+            setIphoneScale(window.innerWidth < 1350 ? 4 : 5.5);
         }
 
         window.addEventListener('resize', handleResize);
